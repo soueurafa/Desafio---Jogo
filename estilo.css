@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #F2890D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main{
+    margin-top: 100px;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1{
+    width: 258px;
+    height: 100px;
+    background-color: #1180E7;
+    position: absolute;
+    top: -50px;
+    border-radius: 5px;
+    font-family: 'Squada One';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.usuario{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_usuario{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-family: 'Press Start 2P';
+}
+
+.botao_comecar{
+    width: 300px;
+    height: 30px;
+    color: #000000;
+    background-color: #1180E7;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: large;
+    font-family: 'Press Start 2P';
+}
+
+.linha{
+    width: 3px;
+    height: 300px;
+    border: #7e7e7e 1px solid;
+    border-radius: 3px;
+    background-color: #B0A3A3;
+}
+
+.jogo{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao_jogar{
+    width: 200px;
+    height: 30px;
+    color: #000000;
+    background-color: #F2890D;
+    border-radius: 10px;
+    font-family: 'Press Start 2P';
+}
+
+.numero_usuario{
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.texto{
+    margin-bottom: 20px;
+    font-family: "Roboto";
+}
+
+span{
+    font-weight: bold;
+}
+
+.texto, .resultado, .tentativas{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Roboto";
+}
